@@ -40,8 +40,7 @@ class Solution {
             map.put(nums[i],i);
         }
         return ans;
-
-
+        
 
         // for(int i=0 ; i<nums.length ; i++)     // BRUTE FORCE n^2  
         // {
