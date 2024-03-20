@@ -7,7 +7,6 @@ class Solution {
         }
         
         List<Integer>list = new ArrayList<>();
-        // int min = (int)(nums.length/3)+1;
         for(int key: map.keySet()){
             if(map.get(key) > nums.length/3){
                 list.add(key);
