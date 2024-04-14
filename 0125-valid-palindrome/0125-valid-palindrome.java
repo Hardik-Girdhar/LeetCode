@@ -2,14 +2,6 @@ class Solution {
     public boolean isPalindrome(String s) {
         int l=0;
         int r=s.length()-1;
-        // if(s.equals(" "))
-        // {
-        //     return true;
-        // }
-        // if(s.isEmpty())
-        // {
-        //     return true;
-        // }
         while(l<r)
         {
             if(!Character.isLetterOrDigit(s.charAt(l))){
