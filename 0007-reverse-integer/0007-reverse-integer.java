@@ -8,8 +8,9 @@ class Solution {
             {
                 return 0;
             }
-            rev = rev * 10 + rem;
+            
             nums = nums / 10;
+            rev = rev * 10 + rem;
         }
         return (x < 0) ? (-rev) : rev;
     }
