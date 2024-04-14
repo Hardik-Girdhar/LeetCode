@@ -8,13 +8,13 @@ class Solution {
             rev=rev*10+rem;
             x=x/10;
         }
-        // if(x<0) 
-        // {
-        //     return dup==(-rev);
-        // }
-        // else
-        // {
+        if(x<0) 
+        {
+            return dup==(-rev);
+        }
+        else
+        {
             return dup==rev;
-        // }
+        }
     }
 }
