@@ -40,6 +40,27 @@
 
 class Solution {
     public void sortColors(int[] nums) {
-        Arrays.sort(nums);
+        int a=0;
+        int m=0;
+        int e=nums.length-1;
+        while(m<=e){
+            if(nums[m] == 0){
+                swap(nums,a,m);
+                m++;
+                a++;
+            }
+            else if(nums[m] == 1){
+                m++;
+            }
+            else{
+                swap(nums,m,e);
+                e--;
+            }
+        }
+    }
+    public static void swap(int nums[],int a,int b){
+        int temp = nums[a];
+        nums[a]=nums[b];
+        nums[b]=temp;
     }
 }
