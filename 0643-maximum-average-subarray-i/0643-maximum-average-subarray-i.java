@@ -4,7 +4,7 @@ class Solution {
         int i=0;
         int j=0;
         double sum = 0;
-        double res=-1111;
+        double res=Double.NEGATIVE_INFINITY;
         while(j<nums.length){
             sum = sum + nums[j];
             if(j-i+1 < k){
