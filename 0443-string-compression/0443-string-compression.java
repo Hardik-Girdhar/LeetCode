@@ -18,10 +18,12 @@ class Solution {
                 count=1;
             }
         }
+        // last before end
         sb.append(pre);
             if(count>1){
                 sb.append(count);
             }
+        // to copy element od stringbuilder in arr
         for(int i=0;i<sb.length();i++){
             chars[i] = sb.charAt(i);
         }
