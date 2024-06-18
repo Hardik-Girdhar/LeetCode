@@ -1,119 +1,107 @@
+// //Approach-1 (Using max-heap)
+// //T.C : O(nlogn + mlogn)
+// //S.C : O(n)
 // class Solution {
 //     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
-//         int maxDifficulty = 0;
-//         for (int d : difficulty) {
-//             maxDifficulty = Math.max(maxDifficulty, d);
+//         int total = 0;
+//         PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->b[0]-a[0]);
+//         for(int i=0;i<profit.length;i++){
+//             pq.add(new int[]{profit[i] , difficulty[i]});
 //         }
-
-//         int[] maxProfitUpToDifficulty = new int[maxDifficulty + 1];
-//         for (int i = 0; i < difficulty.length; i++) {
-//             maxProfitUpToDifficulty[difficulty[i]] = Math.max(maxProfitUpToDifficulty[difficulty[i]], profit[i]);
-//         }
-
-//         for (int i = 1; i <= maxDifficulty; i++) {
-//             maxProfitUpToDifficulty[i] = Math.max(maxProfitUpToDifficulty[i], maxProfitUpToDifficulty[i - 1]);
-//         }
-
-//         int totalProfit = 0;
-//         for (int ability : worker) {
-//             if (ability > maxDifficulty) {
-//                 totalProfit += maxProfitUpToDifficulty[maxDifficulty];
-//             } else {
-//                 totalProfit += maxProfitUpToDifficulty[ability];
-//             }
-//         }
-
-//         return totalProfit;
-//     }
-
-// }
-
-// class Solution {
-//     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
-//         int ret = 0;
-//         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[0] - a[0]); // Max-heap based on profit
-        
-//         for (int i = 0; i < profit.length; i++) {
-//             pq.offer(new int[]{profit[i], difficulty[i]});
-//         }
-        
 //         Arrays.sort(worker);
-//         int workerIndex = worker.length - 1;
-        
-//         while (!pq.isEmpty() && workerIndex >= 0) {
-//             int[] top = pq.peek();
-//             while (!pq.isEmpty() && top[1] > worker[workerIndex]) {
-//                 pq.poll();
-//                 if (!pq.isEmpty()) {
-//                     top = pq.peek();
-//                 }
+//         int idx = worker.length-1;
+//         int i=0;
+//         while(!pq.isEmpty() && idx>=0){
+//             if(worker[idx] >= pq.peek()[1]){
+//                 total += pq.peek()[0];
+//                 idx--;
 //             }
-//             if (!pq.isEmpty()) {
-//                 ret += top[0];
-//                 workerIndex--;
+//             else{
+//                 pq.poll();
 //             }
 //         }
-        
-//         return ret;
+//         return total;
 //     }
 // }
 
 
+//Approach-2 (Using Binary Search)
+//T.C : O(nlogn)
+//S.C : O(n)
 class Solution {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
-        int total = 0;
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->b[0]-a[0]);
-        for(int i=0;i<profit.length;i++){
-            pq.add(new int[]{profit[i] , difficulty[i]});
+        int n = difficulty.length;
+        int m = worker.length;
+
+        List<int[]> vec = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            vec.add(new int[]{difficulty[i], profit[i]});
         }
-        Arrays.sort(worker);
-        int idx = worker.length-1;
-        int i=0;
-        while(!pq.isEmpty() && idx>=0){
-            if(worker[idx] >= pq.peek()[1]){
-                total += pq.peek()[0];
-                idx--;
-            }
-            else{
-                pq.poll();
-            }
+
+        // Sort the vector based on difficulty
+        Collections.sort(vec, (a, b) -> Integer.compare(a[0], b[0]));
+
+        // Pre-processing to find the maximum profit till index i at constant time
+        for (int i = 1; i < vec.size(); i++) {
+            vec.get(i)[1] = Math.max(vec.get(i)[1], vec.get(i - 1)[1]);
         }
-        return total;
+
+        int totalProfit = 0;
+        for (int i = 0; i < m; i++) {
+            int workerDiffLevel = worker[i];
+
+            // Apply binary search on vec
+            int l = 0, r = vec.size() - 1;
+            int maxProfit = 0;
+            while (l <= r) {
+                int mid = l + (r - l) / 2;
+                if (vec.get(mid)[0] <= workerDiffLevel) {
+                    maxProfit = Math.max(maxProfit, vec.get(mid)[1]);
+                    l = mid + 1;
+                } else {
+                    r = mid - 1;
+                }
+            }
+
+            totalProfit += maxProfit;
+        }
+
+        return totalProfit;
     }
 }
 
+
+// //Approach-3 (Using simple iteration and sorting)
+// //T.C : O(nlogn + mlogm + m + n)
+// //S.C : O(n)
 // class Solution {
 //     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
 //         int n = difficulty.length;
 //         int m = worker.length;
 
-//         // Create a max-heap using a priority queue
-//         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[0] - a[0]); // Max-heap by profit
-
+//         // Create an array of pairs to hold difficulty and profit
+//         int[][] vec = new int[n][2];
 //         for (int i = 0; i < n; i++) {
-//             int diff = difficulty[i];
-//             int prof = profit[i];
-
-//             pq.offer(new int[]{prof, diff});
+//             vec[i][0] = difficulty[i];
+//             vec[i][1] = profit[i];
 //         }
 
-//         // Sort worker array in descending order
+//         // Sort the array based on difficulty
+//         Arrays.sort(vec, (a, b) -> Integer.compare(a[0], b[0]));
+
+//         // Sort the worker array
 //         Arrays.sort(worker);
-//         for (int i = 0; i < worker.length / 2; i++) {
-//             int temp = worker[i];
-//             worker[i] = worker[worker.length - 1 - i];
-//             worker[worker.length - 1 - i] = temp;
-//         }
 
-//         int i = 0;
 //         int totalProfit = 0;
-//         while (i < m && !pq.isEmpty()) {
-//             if (pq.peek()[1] > worker[i]) {
-//                 pq.poll();
-//             } else {
-//                 totalProfit += pq.peek()[0];
-//                 i++;
+//         int j = 0; // Pointer to vec array
+//         int maxProfit = 0;
+
+//         for (int i = 0; i < m; i++) {
+//             while (j < n && worker[i] >= vec[j][0]) {
+//                 maxProfit = Math.max(maxProfit, vec[j][1]);
+//                 j++;
 //             }
+//             totalProfit += maxProfit;
 //         }
 
 //         return totalProfit;
