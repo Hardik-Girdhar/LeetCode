@@ -1,4 +1,4 @@
-// // COMPLEXITY -n
+// COMPLEXITY -n
 // class Solution {
 //     public int maxOperations(int[] nums, int k) {
 //         // Check for edge cases where it's not possible to form pairs
@@ -69,22 +69,24 @@
 
 class Solution {
     public int maxOperations(int[] nums, int k) {
-        int s=0;
-        int e = nums.length-1;
-        Arrays.sort(nums);
-        int count=0;
-        while(s<e){
-            if(nums[s] + nums[e] == k){
+        int count = 0; 
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            int temp = k - nums[i];
+            if(map.containsKey(temp)){
                 count++;
-                s++;
-                e--;
-            }
-            else if(nums[s] + nums[e] < k){
-                s++;
+                
+                if(map.get(temp) == 1){
+                    map.remove(temp);
+                }
+                
+                else{
+                    map.put(temp,map.get(temp)-1);
+                }
             }
             else{
-                e--;
-            }
+                map.put(nums[i],map.getOrDefault(nums[i],0)+1);
+            }   
         }
         return count;
     }
