@@ -8,9 +8,6 @@ class Solution {
             if(isVowel(s.charAt(j))){
                 count++;
             }
-            // if(j-i+1 < k){
-            //     j++;
-            // }
             if(j-i+1 == k)
             {
                 ans = Math.max(ans,count);
