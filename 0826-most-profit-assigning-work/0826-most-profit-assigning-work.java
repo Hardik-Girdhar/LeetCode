@@ -29,44 +29,44 @@
 // //Approach-2 (Using Binary Search)
 // //T.C : O(nlogn)
 // //S.C : O(n)
-// class Solution {
-//     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {       
-//         // make pair in linked list of diffculty and profit
-//         List<int[]> list = new ArrayList<>();
-//         for(int i=0;i<profit.length;i++){
-//             list.add(new int[]{difficulty[i],profit[i]});
-//         }
+class Solution {
+    public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {       
+        // make pair in linked list of diffculty and profit
+        List<int[]> list = new ArrayList<>();
+        for(int i=0;i<profit.length;i++){
+            list.add(new int[]{difficulty[i],profit[i]});
+        }
         
-//         //sort as per difficulty
-//         Collections.sort(list,(a,b)->Integer.compare(a[0],b[0]));
+        //sort as per difficulty
+        Collections.sort(list,(a,b)->Integer.compare(a[0],b[0]));
         
-//         // take maximum profit at each array
-//         for(int i=1;i<list.size()-1;i++){
-//             list.get(i)[1] = Math.max(list.get(i-1)[1] , list.get(i)[1]);
-//         }
+        // take maximum profit at each array
+        for(int i=1;i<list.size()-1;i++){
+            list.get(i)[1] = Math.max(list.get(i-1)[1] , list.get(i)[1]);
+        }
         
-//         int total = 0;
-//         for(int i=0;i<worker.length;i++){
-//             // apply binary search
-//             int l=0;
-//             int r=list.size()-1;
-//             int max = 0;
-//             while(l<=r){
-//                 int mid = l + (r-l)/2;
-//                 if(list.get(mid)[0] <= worker[i]){
-//                     max = Math.max(max , list.get(mid)[1]);
-//                     l = mid+1;
-//                 }
-//                 else{
-//                     r=mid-1;
-//                 }
-//             }
-//             total += max;
-//         }
+        int total = 0;
+        for(int i=0;i<worker.length;i++){
+            // apply binary search
+            int l=0;
+            int r=list.size()-1;
+            int max = 0;
+            while(l<=r){
+                int mid = l + (r-l)/2;
+                if(list.get(mid)[0] <= worker[i]){
+                    max = Math.max(max , list.get(mid)[1]);
+                    l = mid+1;
+                }
+                else{
+                    r=mid-1;
+                }
+            }
+            total += max;
+        }
         
-//         return total;
-//     }
-// }
+        return total;
+    }
+}
 
 
 //Approach-3 (Using simple iteration and sorting)
@@ -105,36 +105,3 @@
 //         return totalProfit;
 //     }
 // }
-
-
-class Solution {
-    public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
-        List<int[]> list = new ArrayList<>();
-        for(int i=0;i<profit.length;i++){
-            list.add(new int[]{profit[i],difficulty[i]});
-        }
-        Collections.sort(list,(a,b)->Integer.compare(a[1],b[1]));
-        for(int i=1;i<list.size();i++){
-            list.get(i)[0] = Math.max(list.get(i-1)[0],list.get(i)[0]);
-        }
-        
-        int total = 0 ;
-        for(int i =0; i<worker.length;i++){
-            int l = 0;
-            int r = list.size()-1;
-             int max=0;
-            while(l<=r){
-                int mid = l+(r-l)/2;
-                if(list.get(mid)[1] <= worker[i]){
-                    max = Math.max(max,list.get(mid)[0]);
-                    l=mid+1;
-                }
-                else{
-                    r=mid-1;
-                }
-            }
-            total+=max;
-        }
-        return total;
-    }
-}
