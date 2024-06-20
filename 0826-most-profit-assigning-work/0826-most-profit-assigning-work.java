@@ -106,25 +106,34 @@
 //     }
 // }
 
+
 class Solution {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
-        int total = 0 ;
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->b[0]-a[0]);
+        List<int[]> list = new ArrayList<>();
         for(int i=0;i<profit.length;i++){
-            pq.add(new int[]{profit[i],difficulty[i]});
+            list.add(new int[]{profit[i],difficulty[i]});
+        }
+        Collections.sort(list,(a,b)->Integer.compare(a[1],b[1]));
+        for(int i=1;i<list.size();i++){
+            list.get(i)[0] = Math.max(list.get(i-1)[0],list.get(i)[0]);
         }
         
-        Arrays.sort(worker);
-        int idx = worker.length-1;
-        
-        while(idx>=0 && !pq.isEmpty()){
-            if(worker[idx] >= pq.peek()[1]){
-                total += pq.peek()[0];
-                idx--;
+        int total = 0 ;
+        for(int i =0; i<worker.length;i++){
+            int l = 0;
+            int r = list.size()-1;
+             int max=0;
+            while(l<=r){
+                int mid = l+(r-l)/2;
+                if(list.get(mid)[1] <= worker[i]){
+                    max = Math.max(max,list.get(mid)[0]);
+                    l=mid+1;
+                }
+                else{
+                    r=mid-1;
+                }
             }
-            else{
-                pq.poll();
-            }
+            total+=max;
         }
         return total;
     }
