@@ -1,4 +1,4 @@
-// SLINDING WINDOW PROBLEM
+// // SLINDING WINDOW PROBLEM
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
         int ans=0;
