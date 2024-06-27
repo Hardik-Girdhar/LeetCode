@@ -114,18 +114,17 @@ class Solution {
     public int minOperations(int[] nums) {
         int k=3;
         int ans=0;
-        int flipcount = 0;
-        boolean[] isFlip = new boolean[nums.length];
+        int flipc=0;
         for(int i=0;i<nums.length;i++){
-            if(i>=k && isFlip[i-k]==true){
-                flipcount--;
+            if(i>=k && nums[i-k]==2){
+                flipc--;
             }
-            if(flipcount % 2 == nums[i]){
+            if(flipc % 2 == nums[i]){
                 if(i+k > nums.length){
                     return -1;
                 }
-                flipcount++;
-                isFlip[i]=true;
+                flipc++;
+                nums[i]=2;
                 ans++;
             }
         }
