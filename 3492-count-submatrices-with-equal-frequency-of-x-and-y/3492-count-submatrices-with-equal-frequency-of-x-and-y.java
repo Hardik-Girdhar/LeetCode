@@ -19,36 +19,39 @@
 // }
 
 
-class Solution {
-    // public boolean isValid(char[][] grid, int strow, int stcol, int endrow, int endcol){
-    //     int cntX=0;
-    //     int cntY=0;
-    //     boolean containsX=false;
-    //     for(int i=strow; i<=endrow;i++){
-    //         for(int j=stcol;j<=endcol;j++){
-    //             if(grid[i][j]=='X'){
-    //                 cntX++;
-    //                 containsX=true;
-    //             }else if(grid[i][j]=='Y'){
-    //                 cntY++;
-    //             }
-    //         }
-    //     }
-    //     return containsX && cntX==cntY;
-    // }
-    
-    
-    public int numberOfSubmatrices(char[][] grid) {
-        // Brute force - throws tle
-        // int cnt=0;
-        // for(int i=0;i<grid.length;i++){
-        //     for(int j=0;j<grid[0].length;j++){
-        //         if(isValid(grid,0,0,i,j)) cnt++;
-        //     }
-        // }
-        // return cnt;
+// Brute force - throws tle
+// class Solution {
+//     public boolean isValid(char[][] grid, int strow, int stcol, int endrow, int endcol){
+//         int cntX=0;
+//         int cntY=0;
+//         boolean containsX=false;
+//         for(int i=strow; i<=endrow;i++){
+//             for(int j=stcol;j<=endcol;j++){
+//                 if(grid[i][j]=='X'){
+//                     cntX++;
+//                     containsX=true;
+//                 }else if(grid[i][j]=='Y'){
+//                     cntY++;
+//                 }
+//             }
+//         }
+//         return containsX && cntX==cntY;
+//     }
 
-        // Optimal - tc: O(mn) sc: O(nm)
+//     public int numberOfSubmatrices(char[][] grid) {
+//         int cnt=0;
+//         for(int i=0;i<grid.length;i++){
+//             for(int j=0;j<grid[0].length;j++){
+//                 if(isValid(grid,0,0,i,j)) cnt++;
+//             }
+//         }
+//         return cnt;   
+//     }
+// }
+
+// Optimal - tc: O(mn) sc: O(nm)
+class Solution {
+    public int numberOfSubmatrices(char[][] grid) {
         int n=grid.length;
         int m=grid[0].length;
         int cnt=0;
