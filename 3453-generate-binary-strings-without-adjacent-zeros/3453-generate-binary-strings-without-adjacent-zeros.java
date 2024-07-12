@@ -27,7 +27,6 @@ class Solution {
         findBinary(0,n,list,s);
         return list;
     }
-
     private void findBinary(int start, int n, List<String>list, String s){
         for(int i=start ; i<=n; i++){
             //Base Condition
