@@ -65,44 +65,75 @@
 // }
 
 /* OPTIMAL BRUTE using boolean array without idx-- */
+// class Solution {
+//     public String predictPartyVictory(String senate) {
+//         int countR = 0;
+//         int countD = 0;
+
+//         for (char ch : senate.toCharArray()) {
+//             if (ch == 'R') {
+//                 countR++;
+//             } else {
+//                 countD++;
+//             }
+//         }
+
+//         boolean[] removed = new boolean[senate.length()];
+//         int idx = 0;
+
+//         while (countR > 0 && countD > 0) {
+//             if (!removed[idx]) {
+//                 if (senate.charAt(idx) == 'R') {
+//                     removeCharacter(senate, 'D', (idx+1)%senate.length(),removed);
+//                     countD--;
+//                 } else {
+//                     removeCharacter(senate, 'R', (idx+1)%senate.length(),removed);
+//                     countR--;
+//                 }
+//             }
+//             idx = (idx+1)%senate.length();
+//         }
+//         return countR == 0 ? "Dire" : "Radiant";
+//     }
+
+//     private void removeCharacter(String senate, char ch, int idx,boolean[] removed){
+//         while(true){
+//             if(senate.charAt(idx) == ch && !removed[idx]){
+//                 removed[idx] = true;
+//                 break;
+//             }
+//             idx = (idx+1)%senate.length();
+//         }
+//     }
+// }
+
+/* OPTIMAL - using queue */
 class Solution {
     public String predictPartyVictory(String senate) {
-        int countR = 0;
-        int countD = 0;
+        Queue<Integer> queueD = new LinkedList<>();
+        Queue<Integer> queueR = new LinkedList<>();
 
-        for (char ch : senate.toCharArray()) {
-            if (ch == 'R') {
-                countR++;
-            } else {
-                countD++;
+        for(int i=0;i<senate.length();i++){
+            if(senate.charAt(i) == 'R'){
+                queueR.add(i);
+            }
+            else{
+                queueD.add(i);
             }
         }
 
-        boolean[] removed = new boolean[senate.length()];
-        int idx = 0;
+        while(!queueD.isEmpty() && !queueR.isEmpty()){
+            int rid = queueR.poll();
+            int did = queueD.poll();
 
-        while (countR > 0 && countD > 0) {
-            if (!removed[idx]) {
-                if (senate.charAt(idx) == 'R') {
-                    removeCharacter(senate, 'D', (idx+1)%senate.length(),removed);
-                    countD--;
-                } else {
-                    removeCharacter(senate, 'R', (idx+1)%senate.length(),removed);
-                    countR--;
-                }
+            if(rid < did){
+                queueR.add(rid + senate.length());
             }
-            idx = (idx+1)%senate.length();
+            else{
+                queueD.add(did + senate.length());
+            }
         }
-        return countR == 0 ? "Dire" : "Radiant";
-    }
 
-    private void removeCharacter(String senate, char ch, int idx,boolean[] removed){
-        while(true){
-            if(senate.charAt(idx) == ch && !removed[idx]){
-                removed[idx] = true;
-                break;
-            }
-            idx = (idx+1)%senate.length();
-        }
+        return queueR.size() > queueD.size() ? "Radiant" : "Dire";
     }
 }
