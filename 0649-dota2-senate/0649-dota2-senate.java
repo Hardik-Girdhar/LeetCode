@@ -8,66 +8,63 @@
 //         -> (idx+1) % n to be done for managing round direction
 // */
 
+/* BRUTE FORCE */
 // class Solution {
 //     public String predictPartyVictory(String senate) {
-//         int R_Count = 0;
-//         int D_Count = 0;
+//         int countR = 0;
+//         int countD = 0;
 
-//         // Count initial 'R' and 'D'
-//         for (int i = 0; i < senate.length(); i++) {
-//             if (senate.charAt(i) == 'R') {
-//                 R_Count++;
-//             } else if (senate.charAt(i) == 'D') {
-//                 D_Count++;
+//         for (char ch : senate.toCharArray()) {
+//             if (ch == 'R') {
+//                 countR++;
+//             } else {
+//                 countD++;
 //             }
 //         }
 
-//         StringBuilder senateBuilder = new StringBuilder(senate);
+//         StringBuilder sb = new StringBuilder(senate);
 //         int idx = 0;
 
-//         // Simulate the rounds
-//         while (R_Count > 0 && D_Count > 0) {
-//             if (senateBuilder.charAt(idx) == 'R') {
-//                 boolean checkRemoval = removeSenator(senateBuilder, 'D', (idx + 1) % senateBuilder.length());
-//                 D_Count--;
-
-//                 if (checkRemoval) {
-//                     idx--;
-//                 }
-//             } else if (senateBuilder.charAt(idx) == 'D') {
-//                 boolean checkRemoval = removeSenator(senateBuilder, 'R', (idx + 1) % senateBuilder.length());
-//                 R_Count--;
-
-//                 if (checkRemoval) {
+//         while(countR > 0 && countD > 0){
+//             if(sb.charAt(idx) == 'R'){
+//                 boolean removalLeft = removeCharacter(sb, 'D', (idx+1)%sb.length());
+//                 countD--;
+//                 if(removalLeft){
 //                     idx--;
 //                 }
 //             }
-
-//             idx = (idx + 1) % senateBuilder.length();
+//             else{
+//                 boolean removalLeft = removeCharacter(sb, 'R', (idx+1)%sb.length());
+//                 countR--;
+//                 if(removalLeft){
+//                     idx--;
+//                 }
+//             }
+//             idx = (idx+1)%sb.length();
 //         }
-
-//         return R_Count == 0 ? "Dire" : "Radiant";
+//         return countR == 0 ? "Dire" : "Radiant";
 //     }
 
-//     public boolean removeSenator(StringBuilder senate, char ch, int startIdx) {
-//         boolean loopAround = false;
-//         int n = senate.length();
-
-//         for (int i = startIdx; i < startIdx + n; i++) {
-//             int idx = i % n;
-//             if (idx == 0) {
-//                 loopAround = true;
+//     private boolean removeCharacter(StringBuilder sb , char ch, int idx){
+//         boolean loopAroundleft = false;
+//         while(true){
+//             if(idx == 0){
+//                 loopAroundleft = true;
 //             }
-//             if (senate.charAt(idx) == ch) {
-//                 senate.deleteCharAt(idx);
+
+//             if(sb.charAt(idx) == ch){
+//                 sb.deleteCharAt(idx);
 //                 break;
 //             }
+
+//             idx = (idx+1)%sb.length();
 //         }
 
-//         return loopAround;
+//         return loopAroundleft;
 //     }
 // }
 
+/* OPTIMAL BRUTE using boolean array without idx-- */
 class Solution {
     public String predictPartyVictory(String senate) {
         int countR = 0;
@@ -81,44 +78,31 @@ class Solution {
             }
         }
 
-        StringBuilder sb = new StringBuilder(senate);
+        boolean[] removed = new boolean[senate.length()];
         int idx = 0;
-        
-        while(countR > 0 && countD > 0){
-            if(sb.charAt(idx) == 'R'){
-                boolean removalLeft = removeCharacter(sb, 'D', (idx+1)%sb.length());
-                countD--;
-                if(removalLeft){
-                    idx--;
+
+        while (countR > 0 && countD > 0) {
+            if (!removed[idx]) {
+                if (senate.charAt(idx) == 'R') {
+                    removeCharacter(senate, 'D', (idx+1)%senate.length(),removed);
+                    countD--;
+                } else {
+                    removeCharacter(senate, 'R', (idx+1)%senate.length(),removed);
+                    countR--;
                 }
             }
-            else{
-                boolean removalLeft = removeCharacter(sb, 'R', (idx+1)%sb.length());
-                countR--;
-                if(removalLeft){
-                    idx--;
-                }
-            }
-            idx = (idx+1)%sb.length();
+            idx = (idx+1)%senate.length();
         }
         return countR == 0 ? "Dire" : "Radiant";
     }
 
-    private boolean removeCharacter(StringBuilder sb , char ch, int idx){
-        boolean loopAroundleft = false;
+    private void removeCharacter(String senate, char ch, int idx,boolean[] removed){
         while(true){
-            if(idx == 0){
-                loopAroundleft = true;
-            }
-
-            if(sb.charAt(idx) == ch){
-                sb.deleteCharAt(idx);
+            if(senate.charAt(idx) == ch && !removed[idx]){
+                removed[idx] = true;
                 break;
             }
-
-            idx = (idx+1)%sb.length();
+            idx = (idx+1)%senate.length();
         }
-
-        return loopAroundleft;
     }
 }
