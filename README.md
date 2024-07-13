@@ -13,11 +13,13 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0344-reverse-string) |
+| [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Greedy
@@ -31,6 +33,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Recursion
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Array
 |  |
