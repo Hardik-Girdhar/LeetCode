@@ -19,6 +19,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Greedy
 |  |
 | ------- |
@@ -34,6 +35,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Array
 |  |
 | ------- |
+| [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Matrix
 |  |
@@ -43,4 +45,12 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
+## Sorting
+|  |
+| ------- |
+| [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
+## Simulation
+|  |
+| ------- |
+| [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 <!---LeetCode Topics End-->
