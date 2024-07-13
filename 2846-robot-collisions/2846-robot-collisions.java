@@ -38,7 +38,7 @@ class Solution {
         }
 
         List<Integer> res = new ArrayList<>();
-        for(var h : healths){
+        for(int h : healths){
             if(h!=0){
                 res.add(h);
             }
