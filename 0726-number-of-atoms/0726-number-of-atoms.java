@@ -1,70 +1,68 @@
 class Solution {
     public String countOfAtoms(String formula) {
         int n = formula.length();
-        Map<String, Integer> result_counter = new HashMap<>();
-        Deque<Map<String, Integer>> parenthesis_stack = new ArrayDeque<>();
-        int cur_ind = 0;
 
-        while (cur_ind < n) {
-            char cur_char = formula.charAt(cur_ind);
+        Stack<Map<String,Integer>> st = new Stack<>();
+        st.push(new HashMap<>());
 
-            if (cur_char == '(') {
-                cur_ind++;
-                parenthesis_stack.push(new HashMap<>());
-                continue;
+        int i=0;
+        while(i<n){
+            if(formula.charAt(i) == '('){
+                st.push(new HashMap<>());
+                i++;
             }
+            else if(formula.charAt(i) == ')'){
+                Map<String,Integer> curr = st.pop();
+                i++;
 
-            if (cur_char == ')') {
-                StringBuilder mult_str = new StringBuilder();
-                cur_ind++;
+                StringBuilder sb = new StringBuilder();
+                while(i<n && Character.isDigit(formula.charAt(i))){
+                    sb.append(formula.charAt(i));
+                    i++;
+                } 
 
-                while (cur_ind < n && Character.isDigit(formula.charAt(cur_ind))) {
-                    mult_str.append(formula.charAt(cur_ind));
-                    cur_ind++;
+                int multiplier = sb.length() > 0 ? Integer.parseInt(sb.toString()) : 1;
+                for(String key : curr.keySet()){
+                    int value = curr.get(key);
+                    curr.put(key,value * multiplier);
                 }
 
-                int mult = mult_str.length() == 0 ? 1 : Integer.parseInt(mult_str.toString());
-                Map<String, Integer> last_counter = parenthesis_stack.pop();
-                Map<String, Integer> target = parenthesis_stack.isEmpty() ? result_counter : parenthesis_stack.peek();
-                
-                for (Map.Entry<String, Integer> entry : last_counter.entrySet()) {
-                    target.put(entry.getKey(), target.getOrDefault(entry.getKey(), 0) + entry.getValue() * mult);
+                for(String key : curr.keySet()){
+                    st.peek().put(key, st.peek().getOrDefault(key, 0) + curr.get(key));
                 }
-                continue;
             }
+            else{
+                StringBuilder ele = new StringBuilder();
+                ele.append(formula.charAt(i));
+                i++;
 
-            StringBuilder cur_elem = new StringBuilder();
-            StringBuilder cur_counter_str = new StringBuilder();
-            Map<String, Integer> target = parenthesis_stack.isEmpty() ? result_counter : parenthesis_stack.peek();
-
-            while (cur_ind < n && formula.charAt(cur_ind) != '(' && formula.charAt(cur_ind) != ')') {
-                if (Character.isAlphabetic(formula.charAt(cur_ind))) {
-                    if (Character.isUpperCase(formula.charAt(cur_ind)) && cur_elem.length() > 0) {
-                        target.put(cur_elem.toString(), target.getOrDefault(cur_elem.toString(), 0) + (cur_counter_str.length() == 0 ? 1 : Integer.parseInt(cur_counter_str.toString())));
-                        cur_elem = new StringBuilder();
-                        cur_counter_str = new StringBuilder();
-                    }
-                    cur_elem.append(formula.charAt(cur_ind));
-                } else {
-                    cur_counter_str.append(formula.charAt(cur_ind));
+                while(i<n && Character.isLowerCase(formula.charAt(i))){
+                    ele.append(formula.charAt(i));
+                    i++;
                 }
-                cur_ind++;
+
+                StringBuilder sb = new StringBuilder();
+                while(i<n && Character.isDigit(formula.charAt(i))){
+                    sb.append(formula.charAt(i));
+                    i++;
+                }
+
+                int count = sb.length()>0 ? Integer.parseInt(sb.toString()) : 1;
+
+                st.peek().put(ele.toString() , st.peek().getOrDefault(ele.toString(),0)+count);
             }
-
-            target.put(cur_elem.toString(), target.getOrDefault(cur_elem.toString(), 0) + (cur_counter_str.length() == 0 ? 1 : Integer.parseInt(cur_counter_str.toString())));
         }
 
-        List<String> parts = new ArrayList<>();
-        for (Map.Entry<String, Integer> entry : result_counter.entrySet()) {
-            parts.add(entry.getKey() + (entry.getValue() == 1 ? "" : entry.getValue()));
-        }
-        Collections.sort(parts);
+        StringBuilder res = new StringBuilder();
+        TreeMap<String,Integer> sortedMap = new TreeMap<>(st.peek());
+        for(String key : sortedMap.keySet()){
+            res.append(key);
+            int count = sortedMap.get(key);
+            if(count>1){
+                res.append(count);
+            }
+        } 
 
-        StringBuilder result = new StringBuilder();
-        for (String part : parts) {
-            result.append(part);
-        }
-
-        return result.toString();
+        return res.toString();
     }
 }
