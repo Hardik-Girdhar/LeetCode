@@ -15,12 +15,14 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0344-reverse-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
+| [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Stack
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
+| [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Greedy
@@ -53,6 +55,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Sorting
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Simulation
 |  |
@@ -62,4 +65,8 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
+## Hash Table
+|  |
+| ------- |
+| [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 <!---LeetCode Topics End-->
