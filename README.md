@@ -42,6 +42,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Array
 |  |
 | ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Matrix
@@ -69,4 +70,13 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
+## Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
+## Binary Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
