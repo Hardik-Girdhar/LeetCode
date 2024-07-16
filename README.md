@@ -17,6 +17,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Stack
 |  |
@@ -74,9 +75,15 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Tree
 |  |
 | ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
+## Depth-First Search
+|  |
+| ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 <!---LeetCode Topics End-->
