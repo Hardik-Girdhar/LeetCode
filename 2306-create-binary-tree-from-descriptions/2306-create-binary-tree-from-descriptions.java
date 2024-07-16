@@ -13,69 +13,37 @@
  *     }
  * }
  */
-// class Solution {
-//     public TreeNode createBinaryTree(int[][] descriptions) {
-//         Map<Integer,TreeNode> mp = new HashMap<>();
-//         Set<Integer> childSet = new HashSet<>();
-
-//         for(int[] desc : descriptions){
-//             int parent = desc[0];
-//             int child = desc[1];
-//             boolean isLeft = desc[2] == 1;
-
-//             mp.putIfAbsent(parent, new TreeNode(parent));
-//             mp.putIfAbsent(child, new TreeNode(child));
-
-//             if(isLeft){
-//                 mp.get(parent).left = mp.get(child);
-//             }
-//             else{
-//                 mp.get(parent).right = mp.get(child);
-//             }
-
-//             childSet.add(child);
-//         }
-
-//         for(int[] desc: descriptions){
-//             int parent = desc[0];
-//             if(!childSet.contains(parent)){
-//                 return mp.get(parent);
-//             }
-//         }
-
-//         return null;
-//     }
-// }
 
 class Solution {
     public TreeNode createBinaryTree(int[][] descriptions) {
-        Map<Integer,TreeNode> map = new HashMap<>();
-        Set<Integer> set = new HashSet<>();
+        Map<Integer,TreeNode> mp = new HashMap<>();
+        Set<Integer> childSet = new HashSet<>();
 
         for(int[] desc : descriptions){
             int parent = desc[0];
             int child = desc[1];
-            int isLeft = desc[2];
+            boolean isLeft = desc[2] == 1;
 
-            map.putIfAbsent(parent,new TreeNode(parent));
-            map.putIfAbsent(child,new TreeNode(child));
+            mp.putIfAbsent(parent, new TreeNode(parent));
+            mp.putIfAbsent(child, new TreeNode(child));
 
-            if(isLeft == 1){
-                map.get(parent).left = map.get(child);
+            if(isLeft){
+                mp.get(parent).left = mp.get(child);
             }
             else{
-                map.get(parent).right = map.get(child);
+                mp.get(parent).right = mp.get(child);
             }
 
-            set.add(child);
+            childSet.add(child);
         }
+
         for(int[] desc: descriptions){
             int parent = desc[0];
-            if(!set.contains(parent))
-            {
-                return map.get(parent);
+            if(!childSet.contains(parent)){
+                return mp.get(parent);
             }
         }
+
         return null;
     }
 }
