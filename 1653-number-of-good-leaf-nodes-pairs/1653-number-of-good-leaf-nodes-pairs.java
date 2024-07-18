@@ -21,7 +21,7 @@ class Solution {
         return result;
     }
     
-    int[] dfs(TreeNode root,int distance){
+    private int[] dfs(TreeNode root,int distance){
         if(root == null)
             return new int[distance+1];
         if(root.left == null && root.right == null){
