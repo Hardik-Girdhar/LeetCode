@@ -15,60 +15,94 @@
  */
 
 class Solution {
-    public void makeGraph(TreeNode root, TreeNode prev, Map<TreeNode, List<TreeNode>> adj, Set<TreeNode> leafNodes) {
-        if (root == null) {
-            return;
-        }
-
-        if (root.left == null && root.right == null) { // Leaf node
-            leafNodes.add(root);
-        }
-
-        if (prev != null) {
-            adj.computeIfAbsent(root, k -> new ArrayList<>()).add(prev);
-            adj.computeIfAbsent(prev, k -> new ArrayList<>()).add(root);
-        }
-
-        makeGraph(root.left, root, adj, leafNodes);
-        makeGraph(root.right, root, adj, leafNodes);
-    }
-
+    int result = 0;
     public int countPairs(TreeNode root, int distance) {
-        Map<TreeNode, List<TreeNode>> adj = new HashMap<>(); // Graph
-        Set<TreeNode> leafNodes = new HashSet<>(); // Leaf nodes
-
-        makeGraph(root, null, adj, leafNodes);
-
-        int count = 0; // Count of good node pairs
-
-        for (TreeNode leaf : leafNodes) {
-            // Perform BFS and see if you can find other leaf nodes within distance
-            Queue<TreeNode> queue = new LinkedList<>();
-            Set<TreeNode> visited = new HashSet<>();
-            queue.add(leaf);
-            visited.add(leaf);
-
-            for (int level = 0; level <= distance; level++) { // Only go till level <= distance
-                int size = queue.size();
-                while (size-- > 0) { // Process level
-                    TreeNode curr = queue.poll();
-
-                    if (curr != leaf && leafNodes.contains(curr)) {
-                        count++;
-                    }
-
-                    for (TreeNode neighbor : adj.getOrDefault(curr, new ArrayList<>())) {
-                        if (!visited.contains(neighbor)) {
-                            queue.add(neighbor);
-                            visited.add(neighbor);
-                        }
-                    }
-                }
+        dfs(root,distance);
+        return result;
+    }
+    
+    int[] dfs(TreeNode root,int distance){
+        if(root == null)
+            return new int[distance+1];
+        if(root.left == null && root.right == null){
+            int res[] = new int[distance+1];
+            res[1]++;
+            return res;
+        }
+        int[] left = dfs(root.left,distance);
+        int[] right = dfs(root.right,distance);
+        for(int l=1;l<left.length;l++){
+            for(int r = distance-1;r>=0;r--){
+                if(l+r <=distance)
+                result += left[l]*right[r];
             }
         }
-        return count / 2;
+        int res[] = new int[distance+1];
+        //shift by 1
+        for(int i=res.length-2;i>=1;i--){
+            res[i+1] = left[i]+right[i];
+        }
+        
+        return res;
     }
 }
+
+
+// class Solution {
+//     public void makeGraph(TreeNode root, TreeNode prev, Map<TreeNode, List<TreeNode>> adj, Set<TreeNode> leafNodes) {
+//         if (root == null) {
+//             return;
+//         }
+
+//         if (root.left == null && root.right == null) { // Leaf node
+//             leafNodes.add(root);
+//         }
+
+//         if (prev != null) {
+//             adj.computeIfAbsent(root, k -> new ArrayList<>()).add(prev);
+//             adj.computeIfAbsent(prev, k -> new ArrayList<>()).add(root);
+//         }
+
+//         makeGraph(root.left, root, adj, leafNodes);
+//         makeGraph(root.right, root, adj, leafNodes);
+//     }
+
+//     public int countPairs(TreeNode root, int distance) {
+//         Map<TreeNode, List<TreeNode>> adj = new HashMap<>(); // Graph
+//         Set<TreeNode> leafNodes = new HashSet<>(); // Leaf nodes
+
+//         makeGraph(root, null, adj, leafNodes);
+
+//         int count = 0; // Count of good node pairs
+
+//         for (TreeNode leaf : leafNodes) {
+//             // Perform BFS and see if you can find other leaf nodes within distance
+//             Queue<TreeNode> queue = new LinkedList<>();
+//             Set<TreeNode> visited = new HashSet<>();
+//             queue.add(leaf);
+//             visited.add(leaf);
+
+//             for (int level = 0; level <= distance; level++) { // Only go till level <= distance
+//                 int size = queue.size();
+//                 while (size-- > 0) { // Process level
+//                     TreeNode curr = queue.poll();
+
+//                     if (curr != leaf && leafNodes.contains(curr)) {
+//                         count++;
+//                     }
+
+//                     for (TreeNode neighbor : adj.getOrDefault(curr, new ArrayList<>())) {
+//                         if (!visited.contains(neighbor)) {
+//                             queue.add(neighbor);
+//                             visited.add(neighbor);
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         return count / 2;
+//     }
+// }
 
 
 // class Solution {
