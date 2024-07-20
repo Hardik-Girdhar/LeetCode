@@ -30,6 +30,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Bit Manipulation
 |  |
@@ -49,6 +50,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1677-matrix-diagonal-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1677-matrix-diagonal-sum) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
@@ -61,6 +63,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1677-matrix-diagonal-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1677-matrix-diagonal-sum) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Prefix Sum
