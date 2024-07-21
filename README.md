@@ -53,6 +53,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Matrix
@@ -65,6 +66,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [1677-matrix-diagonal-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Prefix Sum
 |  |
@@ -117,4 +119,12 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
+## Graph
+|  |
+| ------- |
+| [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
+## Topological Sort
+|  |
+| ------- |
+| [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 <!---LeetCode Topics End-->
