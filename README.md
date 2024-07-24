@@ -49,6 +49,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1333-sort-the-jumbled-numbers](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1677-matrix-diagonal-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -79,6 +80,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
+| [1333-sort-the-jumbled-numbers](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
