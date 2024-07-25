@@ -16,7 +16,7 @@ class Solution {
                 }
             }
             else if(nums[mid] <= nums[e]){
-                if(target >= nums[mid] && target < nums[e]){
+                if(target > nums[mid] && target <= nums[e]){
                     s = mid+1;
                 }
                 else{
@@ -27,3 +27,4 @@ class Solution {
         return -1;
     }
 }
+
