@@ -45,6 +45,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
@@ -162,4 +163,8 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
+## Binary Search
+|  |
+| ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
