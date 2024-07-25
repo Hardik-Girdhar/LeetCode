@@ -72,3 +72,42 @@ class Solution {
 //         }
 //     }
 // }
+
+// // QUICK SORT - O(nlogn)
+// class Solution {
+//     public int[] sortArray(int[] nums) {
+//         quickSort(nums,0,nums.length-1);
+//         return nums;
+//     }
+
+//     private void quickSort(int[] arr, int s, int e){
+//         if(s>=e){
+//             return;
+//         }
+
+//         int pidx = partition(arr, s, e);
+
+//         quickSort(arr, s, pidx-1);
+//         quickSort(arr, pidx+1, e);
+//     }
+
+//     private int partition(int[] arr, int s, int e){
+//         int pivot = arr[e];
+//         int i = s-1;
+//         for(int j=s; j<e; j++){
+//             if(arr[j] <= pivot){
+//                 i++;
+//                 swap(arr, i, j);
+//             }
+//         }
+//         i++;
+//         swap(arr, e, i);
+//         return i;
+//     }
+
+//     private void swap(int[] arr, int i, int j){
+//         int temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp;
+//     }
+// }
