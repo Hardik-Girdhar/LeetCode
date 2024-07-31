@@ -53,6 +53,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
+| [1196-filling-bookcase-shelves](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -178,6 +179,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Dynamic Programming
 |  |
 | ------- |
+| [1196-filling-bookcase-shelves](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
