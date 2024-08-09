@@ -12,6 +12,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
+| [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0344-reverse-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
@@ -43,6 +44,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Recursion
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Array
@@ -203,5 +205,6 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Math
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 <!---LeetCode Topics End-->
