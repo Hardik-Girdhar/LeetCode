@@ -35,6 +35,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
+| [0890-lemonade-change](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Bit Manipulation
@@ -55,6 +56,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
+| [0890-lemonade-change](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0890-lemonade-change) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 | [1196-filling-bookcase-shelves](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
