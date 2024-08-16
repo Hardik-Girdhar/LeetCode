@@ -34,6 +34,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Greedy
 |  |
 | ------- |
+| [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
 | [0890-lemonade-change](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -55,6 +56,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
+| [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0890-lemonade-change) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
