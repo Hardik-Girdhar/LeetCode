@@ -19,6 +19,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2502-sort-the-people) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -107,6 +108,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Queue
