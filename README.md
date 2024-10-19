@@ -37,6 +37,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
+| [0670-maximum-swap](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -217,5 +218,6 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0670-maximum-swap](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 <!---LeetCode Topics End-->
