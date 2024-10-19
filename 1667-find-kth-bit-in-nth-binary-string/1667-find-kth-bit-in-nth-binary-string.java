@@ -1,6 +1,6 @@
 class Solution {
     public char findKthBit(int n, int k) {
-        int length = (1<<n) - 1;
+        int length = (1<<n) - 1;  // Math.pow(2,n) - 1
         // int length = (int)Math.pow(2,n) - 1;
         int mid = length/2 + 1;
 
