@@ -1,49 +1,42 @@
 class Solution {
     public int[][] generateMatrix(int n) {
-        int[][] matrix = new int[n][n];
-        int row = matrix.length;
-        int col = matrix[0].length;
-
-        int startRow = 0;
-        int endRow = row - 1;
-        int startCol = 0;
-        int endCol = col - 1;
-
         int key = 1;
-        while (startRow <= endRow && startCol <= endCol) {
+        int[][] matrix = new int[n][n];
+        int sRow = 0;
+        int eRow = n-1;
+        int sCol = 0;
+        int eCol = n-1;
+
+        while(sRow <= eRow && sCol <= eCol){
             // top
-            for (int j = startCol; j <= endCol; j++) {
-                matrix[startRow][j] = key;
+            for(int j=sCol; j<=eCol; j++){
+                matrix[sRow][j] = key;
                 key++;
             }
-            startRow++;
-
             // right
-            for (int i = startRow; i <= endRow; i++) {
-                matrix[i][endCol] = key;
+            for(int i=sRow+1; i<=eRow; i++){
+                matrix[i][eCol] = key;
                 key++;
             }
-            endCol--;
-
             // bottom
-            if (startRow <= endRow) {
-                for (int j = endCol; j >= startCol; j--) {
-                    matrix[endRow][j] = key;
-                    key++;
-                }
+            for(int j=eCol-1; j>=sCol; j--){
+                if(sRow == eRow) break;
+                matrix[eRow][j] = key;
+                key++;
             }
-            endRow--;
-
             // left
-            if (startCol <= endCol) {
-                for (int i = endRow; i >= startRow; i--) {
-                    matrix[i][startCol] = key;
-                    key++;
-                }
+            for(int i=eRow-1; i>sRow; i--){
+                if(sCol == eCol) break;
+                matrix[i][sCol] = key;
+                key++;
             }
-            startCol++;
-        }
 
+            sRow++;
+            eRow--;
+            sCol++;
+            eCol--;
+        }
+        
         return matrix;
     }
 }
