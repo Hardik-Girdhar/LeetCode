@@ -59,6 +59,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
+| [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
@@ -84,6 +85,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
+| [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -195,6 +197,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 ## Dynamic Programming
 |  |
 | ------- |
