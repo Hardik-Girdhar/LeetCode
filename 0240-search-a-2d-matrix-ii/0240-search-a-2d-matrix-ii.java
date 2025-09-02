@@ -7,13 +7,13 @@ class Solution {
         int col = n-1;
 
         while(row < m && col >= 0){
-            if(matrix[row][col] == target){
-                return true;
+            if(matrix[row][col] == target){         // strating from 1st row last element
+                return true;                        //  easy to go left or down
             }
-            else if(matrix[row][col] > target){
+            else if(matrix[row][col] > target){     // go left -> toward smaller
                 col--;
             }
-            else{
+            else{                                   // go down -> towards greater
                 row++;
             }
         }
