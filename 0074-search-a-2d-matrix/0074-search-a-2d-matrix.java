@@ -27,6 +27,31 @@ class Solution {
 }
 
 
+// // Stair Case Method -> O(m+n) -> O(n) ---> row and col wise sort 
+// class Solution {
+//     public boolean searchMatrix(int[][] matrix, int target) {
+//         int m = matrix.length;
+//         int n = matrix[0].length;
+
+//         int row = 0;
+//         int col = n-1;
+
+//         while(row < m && col >= 0){
+//             if(matrix[row][col] == target){    // started from 1st row last ele
+//                 return true;                   // down -> greater, left -> smaller
+//             } 
+//             else if (matrix[row][col] > target){
+//                 col--;                         // left -> towards smaller
+//             }
+//             else{
+//                 row++;                         // down -> towards greater
+//             }
+//         }
+//         return false;
+//     }
+// }
+
+
 // //row wise binary search check target between 1st element of row and last -- O(n + logn) = n
 // class Solution {
 //     public boolean searchMatrix(int[][] matrix, int target) {
