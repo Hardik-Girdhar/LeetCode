@@ -57,6 +57,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0073-set-matrix-zeroes) |
@@ -85,6 +86,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0073-set-matrix-zeroes) |
@@ -230,6 +232,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0670-maximum-swap](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
