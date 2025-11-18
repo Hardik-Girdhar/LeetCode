@@ -66,6 +66,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0890-lemonade-change) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
