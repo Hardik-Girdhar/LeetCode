@@ -84,6 +84,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Matrix
@@ -243,4 +244,5 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0670-maximum-swap](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 <!---LeetCode Topics End-->
