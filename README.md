@@ -87,6 +87,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Matrix
 |  |
 | ------- |
@@ -245,4 +246,5 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 <!---LeetCode Topics End-->
