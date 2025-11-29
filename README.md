@@ -14,6 +14,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0344-reverse-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
@@ -118,6 +119,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Sorting
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
@@ -145,6 +147,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
