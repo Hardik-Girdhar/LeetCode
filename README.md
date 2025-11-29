@@ -7,6 +7,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
+| [0283-move-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0344-reverse-string) |
 ## String
 |  |
@@ -65,6 +66,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0073-set-matrix-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0283-move-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0283-move-zeroes) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0717-1-bit-and-2-bit-characters) |
