@@ -82,6 +82,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [1333-sort-the-jumbled-numbers](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1511-count-number-of-teams) |
+| [1590-make-sum-divisible-by-p](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1677-matrix-diagonal-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -115,6 +116,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Prefix Sum
 |  |
 | ------- |
+| [1590-make-sum-divisible-by-p](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Sorting
 |  |
@@ -151,6 +153,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1590-make-sum-divisible-by-p](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
