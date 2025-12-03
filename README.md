@@ -231,6 +231,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 | [1196-filling-bookcase-shelves](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1511-count-number-of-teams) |
@@ -254,10 +255,15 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
+| [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0670-maximum-swap](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
