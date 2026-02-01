@@ -266,4 +266,8 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
+## Backtracking
+|  |
+| ------- |
+| [0077-combinations](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0077-combinations) |
 <!---LeetCode Topics End-->
