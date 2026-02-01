@@ -49,17 +49,17 @@ class Solution {
     }
 
     public void backTrack(int idx, int nums[], int target, List<Integer> list, List<List<Integer>> ans){
-        if(idx == nums.length){
-            if(target == 0){
-                ans.add(new ArrayList<>(list));
-            }
+        if(target == 0) 
+        {
+            ans.add(new ArrayList<>(list)); 
             return;
         }
+        for(int i=idx; i<nums.length; i++){
+            if(target < nums[i]) continue;
 
-        if(nums[idx] <= target){
-        list.add(nums[idx]);
-        backTrack(idx, nums, target-nums[idx], list, ans);
-        list.remove(list.size()-1); }
-        backTrack(idx+1, nums, target, list, ans);
+            list.add(nums[i]);
+            backTrack(i, nums, target-nums[i], list, ans);
+            list.remove(list.size()-1);
+        }
     }
 }
