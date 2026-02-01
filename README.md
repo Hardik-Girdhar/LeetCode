@@ -65,6 +65,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
@@ -276,6 +277,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0078-subsets) |
