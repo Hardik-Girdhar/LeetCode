@@ -4,15 +4,15 @@ This repository contains my solutions to various LeetCode problems. Each problem
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0344-reverse-string) |
 | [0977-squares-of-a-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
@@ -30,16 +30,16 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Greedy
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
 | [0670-maximum-swap](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0670-maximum-swap) |
@@ -48,21 +48,21 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0078-subsets](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0090-subsets-ii) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Array
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0040-combination-sum-ii) |
@@ -104,8 +104,8 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Matrix
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
@@ -121,13 +121,13 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Prefix Sum
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1590-make-sum-divisible-by-p](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
@@ -138,8 +138,8 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [2502-sort-the-people](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Simulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0054-spiral-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
@@ -149,12 +149,12 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2846-robot-collisions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2846-robot-collisions) |
 ## Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
@@ -166,101 +166,101 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2502-sort-the-people) |
 ## Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1484-linked-list-in-binary-tree](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1484-linked-list-in-binary-tree](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1484-linked-list-in-binary-tree](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1484-linked-list-in-binary-tree](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2411-spiral-matrix-iv) |
 ## Graph
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Topological Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2472-build-a-matrix-with-conditions](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 ## Divide and Conquer
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Merge Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Bucket Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Radix Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Counting Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Binary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 | [1196-filling-bookcase-shelves](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Shortest Path
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Breadth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1484-linked-list-in-binary-tree](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Hardik-Girdhar/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Binary Indexed Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1511-count-number-of-teams](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1511-count-number-of-teams) |
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
@@ -270,12 +270,12 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Hardik-Girdhar/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Memoization
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 ## Backtracking
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0046-permutations) |
