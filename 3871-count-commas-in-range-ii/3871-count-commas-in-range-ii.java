@@ -2,21 +2,21 @@ class Solution {
     public long countCommas(long n) {
         if(n < 1000) return 0;
 
-        long commas = 0;
-        long start = 1000;
+        long totalCommas = 0;
+        long startRange = 1000;
         long currentCommas = 1;
-        while(start <= n){
-            long endRange = start * 1000 - 1;
+
+        while(startRange <= n){
+            long endRange = startRange * 1000 - 1;
             long currentRange = Math.min(n, endRange);
 
-            if(start <= currentRange){
-                long numbersWithCommas = currentRange - start + 1;
-                commas += numbersWithCommas * currentCommas;
-            }
+            long numbers = currentRange - startRange + 1;
+            totalCommas += numbers * currentCommas;
 
-            start *= 1000;
+            startRange *= 1000;
             currentCommas++;
         }
-        return commas;
+
+        return totalCommas;
     }
 }
