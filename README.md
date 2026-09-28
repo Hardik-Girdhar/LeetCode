@@ -56,6 +56,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0050-powx-n](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0050-powx-n/) | Medium |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
@@ -262,6 +263,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0050-powx-n/) | Medium |
 | [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0670-maximum-swap](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0670-maximum-swap) |
