@@ -13,6 +13,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0273-integer-to-english-words) |
@@ -239,6 +240,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
 | [1196-filling-bookcase-shelves](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -278,10 +280,15 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0090-subsets-ii) |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
