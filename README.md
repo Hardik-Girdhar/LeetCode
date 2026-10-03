@@ -65,6 +65,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0040-combination-sum-ii) |
@@ -157,6 +158,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
