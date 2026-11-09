@@ -81,6 +81,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0078-subsets](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0090-subsets-ii) |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0283-move-zeroes) |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
@@ -137,6 +138,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- | ------- |
 | [0015-3sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
@@ -167,6 +169,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0001-two-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0242-valid-anagram](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0242-valid-anagram) |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
@@ -242,6 +245,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -308,4 +312,5 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 <!---LeetCode Topics End-->
