@@ -80,6 +80,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0090-subsets-ii) |
+| [0152-maximum-product-subarray](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -259,6 +260,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0022-generate-parentheses](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0053-maximum-subarray](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 | [0070-climbing-stairs](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0070-climbing-stairs) |
+| [0152-maximum-product-subarray](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [1196-filling-bookcase-shelves](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1511-count-number-of-teams) |
