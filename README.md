@@ -7,6 +7,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0031-next-permutation](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0031-next-permutation/) | Medium |
 | [0075-sort-colors](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0283-move-zeroes) |
@@ -69,6 +70,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0015-3sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0031-next-permutation](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0040-combination-sum-ii) |
