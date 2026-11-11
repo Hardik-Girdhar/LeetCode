@@ -1,9 +1,8 @@
 class Solution {
     public int trap(int[] height) {
         int water = 0;
-
-        int[] left = prefix(height);
-        int[] right = suffix(height);
+        int left[] = prefix(height);
+        int right[] = suffix(height);
 
         for(int i=0; i<height.length; i++){
             int lmax = left[i];
