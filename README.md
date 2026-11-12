@@ -25,6 +25,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0344-reverse-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0394-decode-string) |
 | [0649-dota2-senate](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0649-dota2-senate) |
+| [0686-repeated-string-match](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0686-repeated-string-match/) | Medium |
 | [0726-number-of-atoms](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0726-number-of-atoms) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
@@ -339,4 +340,20 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0686-repeated-string-match](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0686-repeated-string-match/) | Medium |
+## Z Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0686-repeated-string-match](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0686-repeated-string-match/) | Medium |
+## Knuth–Morris–Pratt Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0686-repeated-string-match](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0686-repeated-string-match/) | Medium |
+## Boyer–Moore String-Search Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0686-repeated-string-match](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0686-repeated-string-match/) | Medium |
 <!---LeetCode Topics End-->
