@@ -7,6 +7,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0018-4sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0031-next-permutation](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0031-next-permutation/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0075-sort-colors](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0075-sort-colors/) | Medium |
@@ -75,6 +76,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0015-3sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0018-4sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0031-next-permutation](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0039-combination-sum) |
@@ -149,6 +151,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0018-4sum](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0075-sort-colors](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
