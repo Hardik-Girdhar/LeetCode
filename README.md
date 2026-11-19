@@ -98,6 +98,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0229-majority-element-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0283-move-zeroes) |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0717-1-bit-and-2-bit-characters) |
@@ -241,6 +242,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0053-maximum-subarray](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 | [0169-majority-element](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -249,6 +251,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 | [0948-sort-an-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 | Problem Name | Difficulty |
@@ -270,6 +273,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -296,6 +300,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 | [1511-count-number-of-teams](https://github.com/Hardik-Girdhar/LeetCode/tree/master/1511-count-number-of-teams) |
 ## Math
 | Problem Name | Difficulty |
@@ -361,4 +366,16 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0686-repeated-string-match](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0686-repeated-string-match/) | Medium |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
+## Treap
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 <!---LeetCode Topics End-->
