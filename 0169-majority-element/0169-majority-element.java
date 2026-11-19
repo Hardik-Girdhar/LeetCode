@@ -14,16 +14,39 @@
 // }
 
 
+// class Solution {
+//     public int majorityElement(int[] nums) {
+//         HashMap<Integer, Integer> map = new HashMap<>();
+//         int n = nums.length;
+//         for(int num : nums){
+//             map.put(num, map.getOrDefault(num, 0) + 1);
+//         }
+//         for(Map.Entry<Integer, Integer> entry : map.entrySet()){
+//             if(entry.getValue() > n/2) return entry.getKey();
+//         }
+//         return -1;
+//     }
+// }
+
+
 class Solution {
     public int majorityElement(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap<>();
+        int count = 0;
+        int ele = -1;
         int n = nums.length;
         for(int num : nums){
-            map.put(num, map.getOrDefault(num, 0) + 1);
+            if(count == 0){
+                count = 1;
+                ele = num;
+            }
+            else if(ele == num){
+                count++;
+            }
+            else{
+                count--;
+            }
         }
-        for(Map.Entry<Integer, Integer> entry : map.entrySet()){
-            if(entry.getValue() > n/2) return entry.getKey();
-        }
-        return -1;
+
+        return ele;
     }
 }
