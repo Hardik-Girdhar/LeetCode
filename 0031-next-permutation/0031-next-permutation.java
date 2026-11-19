@@ -17,7 +17,7 @@ class Solution {
         else{
             for(int i=n-1; i>=0; i--){
                 if(nums[i] > nums[idx1]){
-                    idx2=i;
+                    idx2 = i;
                     break;
                 }
             }
@@ -35,7 +35,6 @@ class Solution {
 
     public void reverse(int[] nums, int s){
         int e = nums.length-1;
-
         while(s<e){
             swap(nums, s, e);
             s++;
