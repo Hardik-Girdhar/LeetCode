@@ -1,70 +1,93 @@
+// // BETTER APPROACH - but 2 auxilary array space- prefix, suffix array
+// // O(3n), O(2n)
 // class Solution {
 //     public int trap(int[] height) {
-//         int water = 0;
-
-//         int[] left = prefix(height);
-//         int[] right = suffix(height);
-
-//         for(int i=0; i<height.length; i++){
-//             int lmax = left[i];
-//             int rmax = right[i];
-
-//             water += Math.min(lmax, rmax) - height[i];
+//         int total = 0;
+//         int leftMax[] = prefixMax(height);    // O(n)
+//         int rightMax[] = suffixMax(height);   // O(n)
+//         for(int i=0; i<height.length; i++){   // O(n)
+//             int lm = leftMax[i];
+//             int rm = rightMax[i];
+//             total += Math.min(lm, rm) - height[i];
 //         }
-
-//         return water;
+//         return total;
 //     }
-
-//     public int[] prefix(int[] height){
+//     private int[] prefixMax(int[] height){
 //         int n = height.length;
-//         int[] pref = new int[n];
-//         pref[0] = height[0];
-
+//         int[] prefix = new int[n];
+//         prefix[0] = height[0];
 //         for(int i=1; i<n; i++){
-//             pref[i] = Math.max(pref[i-1], height[i]);
+//             prefix[i] = Math.max(height[i], prefix[i-1]);
 //         }
-
-//         return pref;
+//         return prefix;
 //     }
-
-//     public int[] suffix(int[] height){
+//     private int[] suffixMax(int[] height){
 //         int n = height.length;
-//         int[] suff = new int[n];
-//         suff[n-1] = height[n-1];
-
+//         int[] suffix = new int[n];
+//         suffix[n-1] = height[n-1];
 //         for(int i=n-2; i>=0; i--){
-//             suff[i] = Math.max(suff[i+1], height[i]);
+//             suffix[i] = Math.max(height[i], suffix[i+1]);
 //         }
-
-//         return suff;
+//         return suffix;
 //     }
 // }
 
 
 
+// class Solution {
+//     public int trap(int[] height) {
+//         int water = 0;
+
+//         int n = height.length;
+
+//         int[] lmax = new int[n];
+//         int[] rmax = new int[n];
+
+//         lmax[0] = height[0];
+//         rmax[n-1] = height[n-1];
+
+//         for(int i=1; i<n; i++){
+//             lmax[i] = Math.max(lmax[i-1], height[i]);
+//         }
+
+//         for(int i=n-2; i>=0; i--){
+//             rmax[i] = Math.max(rmax[i+1], height[i]);
+//         }
+
+//         for(int i=0; i<n; i++){
+//             water += Math.min(lmax[i], rmax[i]) - height[i];
+//         }
+
+//         return water;
+//     }
+// }
+
+
+
+// OPTIMIZED APPROACH - 2 pointer approach
+// No extra space required
 class Solution {
     public int trap(int[] height) {
-        int water = 0;
         int n = height.length;
-        int lmax = 0;
-        int rmax = 0;
-        int lp = 0;
-        int rp = n-1;
+        int l = 0;
+        int r = n-1;
+        int lMax = 0;
+        int rMax = 0;
+        int water = 0;
 
-        while(lp<rp){
-            lmax = Math.max(lmax, height[lp]);
-            rmax = Math.max(rmax, height[rp]);
+        while(l < r){
+            lMax = Math.max(lMax, height[l]);
+            rMax = Math.max(rMax, height[r]);
 
-            if(lmax < rmax){
-                water += lmax - height[lp];
-                lp++;
+            if(lMax < rMax){
+                water += lMax - height[l];
+                l++;
             }
             else{
-                water += rmax - height[rp];
-                rp--;
+                water += rMax - height[r];
+                r--;
             }
         }
-
         return water;
     }
 }
