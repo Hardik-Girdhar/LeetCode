@@ -40,7 +40,7 @@ class Solution {
         int right = mid+1;
 
         for(int i=low; i<=mid; i++){
-            while(right <= high && (long)nums[i] > 2L*nums[right]){
+            while(right <= high && nums[i] > 2L*nums[right]){
                right++;
             }
 
