@@ -15,24 +15,28 @@
 
 
 class Solution {
-    public int count = 0;
+    // public int count = 0;
     public int reversePairs(int[] nums) {
-        mergeSort(nums, 0, nums.length-1);
-        return count;
+        return mergeSort(nums, 0, nums.length-1);
+        // return count;
     }
 
-    public void mergeSort(int[] nums, int low, int high){
-        if(low >= high) return;
+    public int mergeSort(int[] nums, int low, int high){
+        int count = 0;
+        if(low >= high) return count;
 
         int mid = low + (high-low)/2;
 
-        mergeSort(nums, low, mid);
-        mergeSort(nums, mid+1, high);
-        countReverse(nums, low, mid, high);
+        count += mergeSort(nums, low, mid);
+        count += mergeSort(nums, mid+1, high);
+        count += countReverse(nums, low, mid, high);
         merge(nums, low, mid, high);
+
+        return count;
     }
 
-    public void countReverse(int[] nums, int low, int mid, int high){
+    public int countReverse(int[] nums, int low, int mid, int high){
+        int count = 0;
         int right = mid+1;
 
         for(int i=low; i<=mid; i++){
@@ -42,6 +46,8 @@ class Solution {
 
             count += right - (mid+1);
         }
+
+        return count;
     }
 
     public void merge(int[] nums, int low, int mid, int end){
