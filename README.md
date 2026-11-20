@@ -91,6 +91,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0078-subsets](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0078-subsets) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0088-merge-sorted-array/) | Easy |
 | [0090-subsets-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0090-subsets-ii) |
 | [0152-maximum-product-subarray](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
@@ -272,6 +273,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 ## Dynamic Programming
