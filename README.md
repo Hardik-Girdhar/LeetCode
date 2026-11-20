@@ -101,6 +101,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0283-move-zeroes](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0283-move-zeroes) |
 | [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 | [0498-diagonal-traverse](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0498-diagonal-traverse) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0624-maximum-distance-in-arrays](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0870-magic-squares-in-grid](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0870-magic-squares-in-grid) |
@@ -276,6 +277,7 @@ This repository contains my solutions to various LeetCode problems. Each problem
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-Girdhar/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0493-reverse-pairs](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
+| [0540-single-element-in-a-sorted-array](https://github.com/Hardik-Girdhar/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
